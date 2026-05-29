@@ -1,0 +1,640 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "luma",
+  "name": "Spring 6 中文文档",
+  "description": "面向 Spring 6 学习与实践的中文文档，覆盖基础、集成、反应式编程和部署主题。",
+  "colors": {
+    "primary": "#166E3F",
+    "light": "#26BD6C",
+    "dark": "#166E3F"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "assistant"
+    ]
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "首页",
+          "icon": "house",
+          "href": "/"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "group": "第 1 部分：Spring 基础",
+        "icon": "sprout",
+        "expanded": true,
+        "pages": [
+          {
+            "group": "第 1 章 Spring 起步",
+            "root": "spring-basics/getting-started",
+            "pages": [
+              "spring-basics/getting-started/1-1",
+              {
+                "group": "1.2 初始化 Spring 应用",
+                "root": "spring-basics/getting-started/1-2",
+                "pages": [
+                  "spring-basics/getting-started/1-2-1",
+                  "spring-basics/getting-started/1-2-2"
+                ]
+              },
+              {
+                "group": "1.3 编写 Spring 应用",
+                "root": "spring-basics/getting-started/1-3",
+                "pages": [
+                  "spring-basics/getting-started/1-3-1",
+                  "spring-basics/getting-started/1-3-2",
+                  "spring-basics/getting-started/1-3-3",
+                  "spring-basics/getting-started/1-3-4",
+                  "spring-basics/getting-started/1-3-5",
+                  "spring-basics/getting-started/1-3-6"
+                ]
+              },
+              {
+                "group": "1.4 俯瞰 Spring 风景线",
+                "root": "spring-basics/getting-started/1-4",
+                "pages": [
+                  "spring-basics/getting-started/1-4-1",
+                  "spring-basics/getting-started/1-4-2",
+                  "spring-basics/getting-started/1-4-3",
+                  "spring-basics/getting-started/1-4-4",
+                  "spring-basics/getting-started/1-4-5",
+                  "spring-basics/getting-started/1-4-6",
+                  "spring-basics/getting-started/1-4-7"
+                ]
+              },
+              "spring-basics/getting-started/summary"
+            ]
+          },
+          {
+            "group": "第 2 章 开发 Web 应用",
+            "root": "spring-basics/web-applications",
+            "pages": [
+              {
+                "group": "2.1 展现信息",
+                "root": "spring-basics/web-applications/2-1",
+                "pages": [
+                  "spring-basics/web-applications/2-1-1",
+                  "spring-basics/web-applications/2-1-2",
+                  "spring-basics/web-applications/2-1-3"
+                ]
+              },
+              "spring-basics/web-applications/2-2",
+              {
+                "group": "2.3 校验表单输入",
+                "root": "spring-basics/web-applications/2-3",
+                "pages": [
+                  "spring-basics/web-applications/2-3-1",
+                  "spring-basics/web-applications/2-3-2",
+                  "spring-basics/web-applications/2-3-3"
+                ]
+              },
+              "spring-basics/web-applications/2-4",
+              {
+                "group": "2.5 选择视图模板库",
+                "root": "spring-basics/web-applications/2-5",
+                "pages": [
+                  "spring-basics/web-applications/template-caching"
+                ]
+              },
+              "spring-basics/web-applications/summary"
+            ]
+          },
+          {
+            "group": "第 3 章 使用数据",
+            "root": "spring-basics/data-access",
+            "pages": [
+              {
+                "group": "3.1 使用 JDBC 读取和写入数据",
+                "root": "spring-basics/data-access/3-1",
+                "pages": [
+                  "spring-basics/data-access/3-1-1",
+                  "spring-basics/data-access/3-1-2",
+                  "spring-basics/data-access/3-1-3",
+                  "spring-basics/data-access/3-1-4"
+                ]
+              },
+              {
+                "group": "3.2 使用 Spring Data JDBC",
+                "root": "spring-basics/data-access/3-2",
+                "pages": [
+                  "spring-basics/data-access/3-2-1",
+                  "spring-basics/data-access/3-2-2",
+                  "spring-basics/data-access/3-2-3",
+                  "spring-basics/data-access/3-2-4"
+                ]
+              },
+              {
+                "group": "3.3 使用 Spring Data JPA 持久化数据",
+                "root": "spring-basics/data-access/3-3",
+                "pages": [
+                  "spring-basics/data-access/3-3-1",
+                  "spring-basics/data-access/3-3-2",
+                  "spring-basics/data-access/3-3-3",
+                  "spring-basics/data-access/3-3-4"
+                ]
+              },
+              "spring-basics/data-access/summary"
+            ]
+          },
+          {
+            "group": "第 4 章 使用非关系型数据",
+            "root": "spring-basics/nosql-data",
+            "pages": [
+              {
+                "group": "4.1 使用 Cassandra 存储库",
+                "root": "spring-basics/nosql-data/4-1",
+                "pages": [
+                  "spring-basics/nosql-data/4-1-1",
+                  "spring-basics/nosql-data/4-1-2",
+                  "spring-basics/nosql-data/4-1-3",
+                  "spring-basics/nosql-data/4-1-4"
+                ]
+              },
+              {
+                "group": "4.2 编写 MongoDB 存储库",
+                "root": "spring-basics/nosql-data/4-2",
+                "pages": [
+                  "spring-basics/nosql-data/4-2-1",
+                  "spring-basics/nosql-data/4-2-2",
+                  "spring-basics/nosql-data/4-2-3"
+                ]
+              },
+              "spring-basics/nosql-data/summary"
+            ]
+          },
+          {
+            "group": "第 5 章 保护 Spring",
+            "root": "spring-basics/spring-security",
+            "pages": [
+              "spring-basics/spring-security/5-1",
+              {
+                "group": "5.2 配置 Spring Security",
+                "root": "spring-basics/spring-security/5-2",
+                "pages": [
+                  "spring-basics/spring-security/5-2-1",
+                  "spring-basics/spring-security/5-2-2"
+                ]
+              },
+              {
+                "group": "5.3 保护 Web 请求",
+                "root": "spring-basics/spring-security/5-3",
+                "pages": [
+                  "spring-basics/spring-security/5-3-1",
+                  "spring-basics/spring-security/5-3-2",
+                  "spring-basics/spring-security/5-3-3",
+                  "spring-basics/spring-security/5-3-4"
+                ]
+              },
+              "spring-basics/spring-security/5-4",
+              "spring-basics/spring-security/5-5",
+              "spring-basics/spring-security/summary"
+            ]
+          },
+          {
+            "group": "第 6 章 使用配置属性",
+            "root": "spring-basics/configuration-properties",
+            "pages": [
+              {
+                "group": "6.1 细粒度地调整自动配置",
+                "root": "spring-basics/configuration-properties/6-1",
+                "pages": [
+                  "spring-basics/configuration-properties/6-1-1",
+                  "spring-basics/configuration-properties/6-1-2",
+                  "spring-basics/configuration-properties/6-1-3",
+                  "spring-basics/configuration-properties/6-1-4",
+                  "spring-basics/configuration-properties/6-1-5"
+                ]
+              },
+              {
+                "group": "6.2 创建自己的配置属性",
+                "root": "spring-basics/configuration-properties/6-2",
+                "pages": [
+                  "spring-basics/configuration-properties/6-2-1",
+                  "spring-basics/configuration-properties/6-2-2"
+                ]
+              },
+              {
+                "group": "6.3 使用 profile 进行配置",
+                "root": "spring-basics/configuration-properties/6-3",
+                "pages": [
+                  "spring-basics/configuration-properties/6-3-1",
+                  "spring-basics/configuration-properties/6-3-2",
+                  "spring-basics/configuration-properties/6-3-3"
+                ]
+              },
+              "spring-basics/configuration-properties/summary"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "第 2 部分：Spring 集成",
+        "icon": "plug",
+        "expanded": false,
+        "pages": [
+          {
+            "group": "第 7 章 创建 REST 服务",
+            "root": "spring-integration/rest-services",
+            "pages": [
+              {
+                "group": "7.1 编写 RESTful 控制器",
+                "root": "spring-integration/rest-services/7-1",
+                "pages": [
+                  "spring-integration/rest-services/7-1-1",
+                  "spring-integration/rest-services/7-1-2",
+                  "spring-integration/rest-services/7-1-3",
+                  "spring-integration/rest-services/7-1-4"
+                ]
+              },
+              {
+                "group": "7.2 启用数据后端服务",
+                "root": "spring-integration/rest-services/7-2",
+                "pages": [
+                  "spring-integration/rest-services/7-2-1",
+                  "spring-integration/rest-services/7-2-2"
+                ]
+              },
+              {
+                "group": "7.3 消费 REST 服务",
+                "root": "spring-integration/rest-services/7-3",
+                "pages": [
+                  "spring-integration/rest-services/7-3-1",
+                  "spring-integration/rest-services/7-3-2",
+                  "spring-integration/rest-services/7-3-3",
+                  "spring-integration/rest-services/7-3-4"
+                ]
+              },
+              "spring-integration/rest-services/summary"
+            ]
+          },
+          {
+            "group": "第 8 章 保护 REST",
+            "root": "spring-integration/secure-rest",
+            "pages": [
+              "spring-integration/secure-rest/8-1",
+              "spring-integration/secure-rest/8-2",
+              "spring-integration/secure-rest/8-3",
+              "spring-integration/secure-rest/8-4",
+              "spring-integration/secure-rest/summary"
+            ]
+          },
+          {
+            "group": "第 9 章 发送异步消息",
+            "root": "spring-integration/async-messaging",
+            "pages": [
+              {
+                "group": "9.1 使用 JMS 发送消息",
+                "root": "spring-integration/async-messaging/9-1",
+                "pages": [
+                  "spring-integration/async-messaging/9-1-1",
+                  "spring-integration/async-messaging/9-1-2",
+                  "spring-integration/async-messaging/9-1-3"
+                ]
+              },
+              {
+                "group": "9.2 使用 RabbitMQ 和 AMQP",
+                "root": "spring-integration/async-messaging/9-2",
+                "pages": [
+                  "spring-integration/async-messaging/9-2-1",
+                  "spring-integration/async-messaging/9-2-2",
+                  "spring-integration/async-messaging/9-2-3"
+                ]
+              },
+              {
+                "group": "9.3 使用 Kafka 的消息",
+                "root": "spring-integration/async-messaging/9-3",
+                "pages": [
+                  "spring-integration/async-messaging/9-3-1",
+                  "spring-integration/async-messaging/9-3-2",
+                  "spring-integration/async-messaging/9-3-3"
+                ]
+              },
+              "spring-integration/async-messaging/summary"
+            ]
+          },
+          {
+            "group": "第 10 章 Spring 集成",
+            "root": "spring-integration/spring-integration",
+            "pages": [
+              {
+                "group": "10.1 声明一个简单的集成流",
+                "root": "spring-integration/spring-integration/10-1",
+                "pages": [
+                  "spring-integration/spring-integration/10-1-1",
+                  "spring-integration/spring-integration/10-1-2",
+                  "spring-integration/spring-integration/10-1-3"
+                ]
+              },
+              {
+                "group": "10.2 Spring Integration 功能概览",
+                "root": "spring-integration/spring-integration/10-2",
+                "pages": [
+                  "spring-integration/spring-integration/10-2-1",
+                  "spring-integration/spring-integration/10-2-2",
+                  "spring-integration/spring-integration/10-2-3",
+                  "spring-integration/spring-integration/10-2-4",
+                  "spring-integration/spring-integration/10-2-5",
+                  "spring-integration/spring-integration/10-2-6",
+                  "spring-integration/spring-integration/10-2-7",
+                  "spring-integration/spring-integration/10-2-8",
+                  "spring-integration/spring-integration/10-2-9"
+                ]
+              },
+              "spring-integration/spring-integration/10-3",
+              "spring-integration/spring-integration/summary"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "第 3 部分：反应式 Spring",
+        "icon": "activity",
+        "expanded": false,
+        "pages": [
+          {
+            "group": "第 11 章 理解反应式编程",
+            "root": "reactive-spring/reactive-programming",
+            "pages": [
+              {
+                "group": "11.1 反应式编程概览",
+                "root": "reactive-spring/reactive-programming/11-1",
+                "pages": [
+                  "reactive-spring/reactive-programming/reactive-streams"
+                ]
+              },
+              {
+                "group": "11.2 初识 Reactor",
+                "root": "reactive-spring/reactive-programming/11-2",
+                "pages": [
+                  "reactive-spring/reactive-programming/11-2-1",
+                  "reactive-spring/reactive-programming/11-2-2"
+                ]
+              },
+              {
+                "group": "11.3 使用常见的反应式操作",
+                "root": "reactive-spring/reactive-programming/11-3",
+                "pages": [
+                  "reactive-spring/reactive-programming/11-3-1",
+                  "reactive-spring/reactive-programming/11-3-2",
+                  "reactive-spring/reactive-programming/11-3-3",
+                  "reactive-spring/reactive-programming/11-3-4"
+                ]
+              },
+              "reactive-spring/reactive-programming/summary"
+            ]
+          },
+          {
+            "group": "第 12 章 开发反应式 API",
+            "root": "reactive-spring/reactive-api",
+            "pages": [
+              {
+                "group": "12.1 使用 Spring WebFlux",
+                "root": "reactive-spring/reactive-api/12-1",
+                "pages": [
+                  "reactive-spring/reactive-api/12-1-1",
+                  "reactive-spring/reactive-api/12-1-2"
+                ]
+              },
+              "reactive-spring/reactive-api/12-2",
+              {
+                "group": "12.3 测试反应式控制器",
+                "root": "reactive-spring/reactive-api/12-3",
+                "pages": [
+                  "reactive-spring/reactive-api/12-3-1",
+                  "reactive-spring/reactive-api/12-3-2",
+                  "reactive-spring/reactive-api/12-3-3"
+                ]
+              },
+              {
+                "group": "12.4 反应式消费 REST API",
+                "root": "reactive-spring/reactive-api/12-4",
+                "pages": [
+                  "reactive-spring/reactive-api/12-4-1",
+                  "reactive-spring/reactive-api/12-4-2",
+                  "reactive-spring/reactive-api/12-4-3",
+                  "reactive-spring/reactive-api/12-4-4",
+                  "reactive-spring/reactive-api/12-4-5"
+                ]
+              },
+              {
+                "group": "12.5 保护反应式 Web API",
+                "root": "reactive-spring/reactive-api/12-5",
+                "pages": [
+                  "reactive-spring/reactive-api/12-5-1",
+                  "reactive-spring/reactive-api/12-5-2"
+                ]
+              },
+              "reactive-spring/reactive-api/summary"
+            ]
+          },
+          {
+            "group": "第 13 章 反应式持久化数据",
+            "root": "reactive-spring/reactive-persistence",
+            "pages": [
+              {
+                "group": "13.1 使用 R2DBC",
+                "root": "reactive-spring/reactive-persistence/13-1",
+                "pages": [
+                  "reactive-spring/reactive-persistence/13-1-1",
+                  "reactive-spring/reactive-persistence/13-1-2",
+                  "reactive-spring/reactive-persistence/13-1-3",
+                  "reactive-spring/reactive-persistence/13-1-4"
+                ]
+              },
+              {
+                "group": "13.2 反应式地持久化 MongoDB 文档数据",
+                "root": "reactive-spring/reactive-persistence/13-2",
+                "pages": [
+                  "reactive-spring/reactive-persistence/13-2-1",
+                  "reactive-spring/reactive-persistence/13-2-2",
+                  "reactive-spring/reactive-persistence/13-2-3"
+                ]
+              },
+              {
+                "group": "13.3 反应式地持久化 Cassandra 数据",
+                "root": "reactive-spring/reactive-persistence/13-3",
+                "pages": [
+                  "reactive-spring/reactive-persistence/13-3-1",
+                  "reactive-spring/reactive-persistence/13-3-2",
+                  "reactive-spring/reactive-persistence/13-3-3"
+                ]
+              },
+              "reactive-spring/reactive-persistence/summary"
+            ]
+          },
+          {
+            "group": "第 14 章 使用 RSocket",
+            "root": "reactive-spring/rsocket",
+            "pages": [
+              "reactive-spring/rsocket/14-1",
+              {
+                "group": "14.2 创建简单的 RSocket 服务器和客户端",
+                "root": "reactive-spring/rsocket/14-2",
+                "pages": [
+                  "reactive-spring/rsocket/14-2-1",
+                  "reactive-spring/rsocket/14-2-2",
+                  "reactive-spring/rsocket/14-2-3",
+                  "reactive-spring/rsocket/14-2-4"
+                ]
+              },
+              "reactive-spring/rsocket/14-3",
+              "reactive-spring/rsocket/summary"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "第 4 部分：部署 Spring",
+        "icon": "rocket",
+        "expanded": false,
+        "pages": [
+          {
+            "group": "第 15 章 使用 Spring Boot Actuator",
+            "root": "deploying-spring/spring-boot-actuator",
+            "pages": [
+              {
+                "group": "15.1 Actuator 概览",
+                "root": "deploying-spring/spring-boot-actuator/15-1",
+                "pages": [
+                  "deploying-spring/spring-boot-actuator/15-1-1",
+                  "deploying-spring/spring-boot-actuator/15-1-2"
+                ]
+              },
+              {
+                "group": "15.2 消费 Actuator 端点",
+                "root": "deploying-spring/spring-boot-actuator/15-2",
+                "pages": [
+                  "deploying-spring/spring-boot-actuator/15-2-1",
+                  "deploying-spring/spring-boot-actuator/15-2-2",
+                  "deploying-spring/spring-boot-actuator/15-2-3",
+                  "deploying-spring/spring-boot-actuator/15-2-4"
+                ]
+              },
+              {
+                "group": "15.3 自定义 Actuator",
+                "root": "deploying-spring/spring-boot-actuator/15-3",
+                "pages": [
+                  "deploying-spring/spring-boot-actuator/15-3-1",
+                  "deploying-spring/spring-boot-actuator/15-3-2",
+                  "deploying-spring/spring-boot-actuator/15-3-3",
+                  "deploying-spring/spring-boot-actuator/15-3-4"
+                ]
+              },
+              "deploying-spring/spring-boot-actuator/15-4",
+              "deploying-spring/spring-boot-actuator/summary"
+            ]
+          },
+          {
+            "group": "第 16 章 管理 Spring",
+            "root": "deploying-spring/spring-boot-admin",
+            "pages": [
+              {
+                "group": "16.1 使用 Spring Boot Admin",
+                "root": "deploying-spring/spring-boot-admin/16-1",
+                "pages": [
+                  "deploying-spring/spring-boot-admin/16-1-1",
+                  "deploying-spring/spring-boot-admin/16-1-2"
+                ]
+              },
+              {
+                "group": "16.2 探索 Admin 服务器",
+                "root": "deploying-spring/spring-boot-admin/16-2",
+                "pages": [
+                  "deploying-spring/spring-boot-admin/16-2-1",
+                  "deploying-spring/spring-boot-admin/16-2-2",
+                  "deploying-spring/spring-boot-admin/16-2-3",
+                  "deploying-spring/spring-boot-admin/16-2-4"
+                ]
+              },
+              {
+                "group": "16.3 保护 Admin 服务器",
+                "root": "deploying-spring/spring-boot-admin/16-3",
+                "pages": [
+                  "deploying-spring/spring-boot-admin/16-3-1",
+                  "deploying-spring/spring-boot-admin/16-3-2"
+                ]
+              },
+              "deploying-spring/spring-boot-admin/summary"
+            ]
+          },
+          {
+            "group": "第 17 章 使用 JMX 监控 Spring",
+            "root": "deploying-spring/jmx-monitoring",
+            "pages": [
+              "deploying-spring/jmx-monitoring/17-1",
+              "deploying-spring/jmx-monitoring/17-2",
+              "deploying-spring/jmx-monitoring/17-3",
+              "deploying-spring/jmx-monitoring/summary"
+            ]
+          },
+          {
+            "group": "第 18 章 部署 Spring",
+            "root": "deploying-spring/deployment",
+            "pages": [
+              "deploying-spring/deployment/18-1",
+              "deploying-spring/deployment/18-2",
+              {
+                "group": "18.3 构建容器镜像",
+                "root": "deploying-spring/deployment/18-3",
+                "pages": [
+                  "deploying-spring/deployment/18-3-1",
+                  "deploying-spring/deployment/18-3-2",
+                  "deploying-spring/deployment/18-3-3"
+                ]
+              },
+              "deploying-spring/deployment/18-4",
+              "deploying-spring/deployment/18-5",
+              "deploying-spring/deployment/summary"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "附录",
+        "icon": "book-open",
+        "expanded": false,
+        "pages": [
+          {
+            "group": "附录 初始化 Spring 应用",
+            "root": "appendix/initialize-spring-application",
+            "pages": [
+              "appendix/initialize-spring-application/a-1",
+              "appendix/initialize-spring-application/a-2",
+              "appendix/initialize-spring-application/a-3",
+              "appendix/initialize-spring-application/a-4",
+              {
+                "group": "A.5 使用命令行初始化项目",
+                "root": "appendix/initialize-spring-application/a-5",
+                "pages": [
+                  "appendix/initialize-spring-application/a-5-1",
+                  "appendix/initialize-spring-application/a-5-2"
+                ]
+              },
+              "appendix/initialize-spring-application/a-6"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": []
+  }
+}

@@ -1,0 +1,37 @@
+---
+title: 第 3 章 使用数据
+description: 使用 JDBC、Spring Data JDBC 和 Spring Data JPA 读取、写入和持久化数据。
+icon: database
+---
+
+本章用于介绍 Spring 应用中的关系型数据访问方式。
+
+<Note>
+本章正文待补充。建议统一使用同一组领域模型贯穿 JDBC、Spring Data JDBC 和 JPA 示例。
+</Note>
+
+## 写作清单
+
+- 说明领域对象与持久化模型之间的关系。
+- 分别展示 JDBC、Spring Data JDBC、Spring Data JPA 的使用方式。
+- 对比三种方案的优缺点和适用场景。
+- 补充初始化数据和测试数据访问的示例。
+
+## 目录
+
+- 3.1 使用 JDBC 读取和写入数据
+  - 3.1.1 调整领域对象以适应持久化
+  - 3.1.2 使用 JdbcTemplate
+  - 3.1.3 定义模式和预加载数据
+  - 3.1.4 插入数据
+- 3.2 使用 Spring Data JDBC
+  - 3.2.1 添加 Spring Data JDBC 到构建文件中
+  - 3.2.2 定义存储库接口
+  - 3.2.3 为领域类添加持久化的注解
+  - 3.2.4 使用 CommandLineRunner 预加载数据
+- 3.3 使用 Spring Data JPA 持久化数据
+  - 3.3.1 添加 Spring Data JPA 到项目中
+  - 3.3.2 将领域对象标注为实体
+  - 3.3.3 声明 JPA 存储库
+  - 3.3.4 自定义 JPA 存储库
+- 小结
